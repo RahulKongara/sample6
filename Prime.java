@@ -4,7 +4,7 @@ public class Prime {
         for (int i = 2; i <= 100; i++) {
             if (isItPrime(i)) {
                 // System.out.print(i + " ");
-                System.out.print(i + '\t');
+                System.out.print(i + " ");
             }
         }
     }
