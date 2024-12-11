@@ -3,7 +3,8 @@ public class Prime {
         System.out.println("Prime numbers from 1 to 100 are:");
         for (int i = 2; i <= 100; i++) {
             if (isPrime(i)) {
-                System.out.print(i + " ");
+                // System.out.print(i + " ");
+                System.out.print(i + '\t');
             }
         }
     }
